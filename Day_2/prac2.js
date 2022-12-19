@@ -47,5 +47,8 @@ let word =
 
 console.log(word.substr(31, 24));
 
-let string = "JavaScript";
-console.log(string.substr(4, 6)); // Script
+let jsString = "JavaScript";
+let position = Math.floor(Math.random() * 10);
+console.log(jsString.charAt(position));
+console.log(position);
+// console.log(jsString[5]);
